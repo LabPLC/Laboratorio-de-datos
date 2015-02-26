@@ -1,0 +1,10 @@
+setup.py
+ckanext/__init__.py
+ckanext/labplc/__init__.py
+ckanext_labplc.egg-info/PKG-INFO
+ckanext_labplc.egg-info/SOURCES.txt
+ckanext_labplc.egg-info/dependency_links.txt
+ckanext_labplc.egg-info/entry_points.txt
+ckanext_labplc.egg-info/namespace_packages.txt
+ckanext_labplc.egg-info/not-zip-safe
+ckanext_labplc.egg-info/top_level.txt
