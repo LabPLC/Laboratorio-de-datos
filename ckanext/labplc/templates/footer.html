@@ -1,0 +1,17 @@
+{% ckan_extends %}
+
+{% block footer_content %}
+    <a class="cd-mx">
+    <img src="{{ h.url_for_static('/images/cdmx.png') }}" alt="Ciudad de México">
+    </a>
+
+    <a class="agu">
+    <img src="{{ h.url_for_static('/images/agu.png') }}" alt="Ciudad de México">
+    </a>
+
+    <nav class="footer-tag">
+        <p class="tagline">Laboratorio para la ciudad, área experimental del Gobierno de la Ciudad de México</p>
+        <p class="links"><a href="//datos.labcd.mx/acerca">{{ _('About') }}</a> | <a href="//labcd.mx/terminos">{{ _('Terms and Conditions') }}</a></p>
+    </nav>
+
+{% endblock %}
