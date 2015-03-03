@@ -1,0 +1,13 @@
+{% ckan_extends %}
+{% block wrapper_class %} groups{% endblock %}
+
+{% block breadcrumb_content %}
+
+{% endblock %}
+
+{% block primary_content %}
+  <ol class="breadcrumb">
+    <li class="active">/{{ h.nav_link(_('Datasets'), controller='package', action='search', highlight_actions = 'new index') }}</li>
+  </ol>
+  {{ super() }}
+{% endblock %}
