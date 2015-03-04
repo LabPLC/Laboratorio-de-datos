@@ -27,6 +27,9 @@ msgstr "Privacidad"
 msgid "Terms and Conditions"
 msgstr "Términos y condiciones"
 
+msgid "Datasets"
+msgstr "Datos"
+
 #: We need this translation here while https://github.com/okfn/ckan/issues/1408
 #: isn't fixed
 #: ckan/lib/mailer.py:104
