@@ -5,13 +5,15 @@
  * Edits should be made to .less files
  */
 
+@primary-btn:#0077FF;
+@success-btn: #00ba1d;
 @primary:#FFF;
 @dark:tint(@primary, 19%);
 @mid:tint(@primary, 84%);
 @light:tint(@primary, 90%);
 @bg:tint(@primary, 94%);
-@secondary:#000;
-@tertiary:#000;
+@secondary:#333;
+@tertiary:#333;
 @lab-yellow:#FCE900;
 
 .border-radius(@topright: 0, @bottomright: 0, @bottomleft: 0, @topleft: 0) {
@@ -95,7 +97,7 @@ label {
 .nav-pills > .active > a:hover,
 .nav-pills > .active > a:focus {
   background-color: @lab-yellow;
-  color:#000000;
+  color:#333;
   border-radius: 0;
 }
 
@@ -197,9 +199,9 @@ input[type="color"]:focus,
 	display:none;
 }
 .btn-primary {
-  background-color: @primary;
+  background-color: @primary-btn;
   background-image:none;
-  border-color: @primary;
+  border-color: @primary-btn;
   filter: none;
 }
 .btn-primary:hover,
@@ -212,9 +214,9 @@ input[type="color"]:focus,
 }
 
 .btn-success {
-  background-color: @secondary;
+  background-color: @success-btn;
   background-image:none;
-  border-color: @secondary;
+  border-color: @success-btn;
   filter: none;
 }
 .btn-success:hover,
@@ -223,7 +225,7 @@ input[type="color"]:focus,
 .btn-success.active,
 .btn-success.disabled,
 .btn-success[disabled] {
-  background-color: lighten(@secondary, 5%);
+  background-color: lighten(@success-btn, 5%);
 }
 .btn-danger {
   background-color: #DA4F49;
@@ -272,7 +274,7 @@ body {
   font-weight:300;
   background-image:none;
   background-color:@tertiary;
-  color: #000;
+  color: #333;
 
 }
 
@@ -617,7 +619,7 @@ h1,h2,h3,h4,h5{
 }
 .groups.wrapper .secondary .module-heading {
 	background-color:@lab-yellow;
-	color:#000;
+	color:#333;
 	border-bottom:solid 5px @secondary;
 	font-weight:300;
 	font-style:italic;
@@ -626,7 +628,7 @@ h1,h2,h3,h4,h5{
 }
 .groups.wrapper .secondary .module .module-content {
 	background-color:@lab-yellow;
-	color:#000;
+	color:#333;
 }
 .groups.wrapper .primary:before {
 	background-color:initial;
