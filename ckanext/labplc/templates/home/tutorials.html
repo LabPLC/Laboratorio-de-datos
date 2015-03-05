@@ -6,67 +6,44 @@
 {% endblock %}
 
 {% block content %}
-  <div role="main" class="hero">
+<div role="main" class="hero">
   <div class="container">
     <div class="row row1">
-      <div class="span8 col1">
-        <div class="module-content box">
-          <header>
-
-              <h1 class="page-heading">¡Bienvenidos!</h1>
-              <p>
-                El Laboratorio de Datos nace de la inquietud de generar una cultura de consumo de datos generados en
-                  las distintas Secretarías del Gobierno del Distrito Federal y tiene como objetivo principal el
-                  desarrollo de las herramientas necesarias para que estos datos se convierta en información útil tanto
-                  para la ciudadanía en general como para las distintas entidades de gobierno, empresas, emprendedores,
-                  asociaciones civiles, académicos, etc.
-              </p>
-              <p>Conoce más acerca del Laboratorio de Datos y te invitamos a participar activamente en el grupo de
-                  discusión del Laboratorio de Datos.
-              </p>
-          </header>
-            <section class="featured media-overlay hidden-phone">
-              <h2 class="media-heading">Placeholder image</h2>
-                <a class="media-image" href="#">
-                  <img src="{{ h.url_for_static('/base/images/placeholder-group.png') }}" alt="Placeholder" width="420" height="220" />
-                </a>
-            </section>
+      <div class="span12 col1">
+        <div class="container">
+          <h1>Tutoriales</h1>
+          <div class="row">
+            <div class="dataset span3 ">
+              <a href="http://datos.labplc.mx/tutoriales/vehiculos"><h4>Obtener información de un vehículo con placa del D.F.</h4></a>
+              <p>Ve cómo puedes obtener información de un vehículo del D.F. a partir de su placa.</p>
+            </div>
+            <div class="dataset span3 ">
+              <a href="http://datos.labplc.mx/tutoriales/registrocivil"><h4>Validación de actas expedidas por el Registro Civil del D.F.</h4></a>
+              <p>Investiga la forma en la que puedes validar actas (de nacimiento, matrimonio, defunción) expedidas por el Registro Civil del D.F.</p>
+            </div>
+            <div class="dataset span3 ">
+              <a href="http://datos.labplc.mx/tutoriales/buzon"><h4>Manual de uso del Buzón de la Ciudad de México</h4></a>
+              <p>Aquí podrás aprender a enviar denuncias, reportes, comentarios, etc. al Buzón de la Ciudad de México y darle seguimiento.</p>
+            </div>
+            <div class="dataset span3 ">
+              <a href="http://datos.labplc.mx/tutoriales/georeferencia"><h4>La API Georeferenciada</h4></a>
+              <p>Busca ubicaciones interesantes como estacionamientos públicos, estaciones de transporte público, etc.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="dataset span3 ">
+              <a href="http://datos.labplc.mx/tutoriales/aire"><h4>Calidad del Aire en tiempo real</h4></a>
+              <p>Obtén información del IMECA, Radiación UV</p>
+            </div>
+            <div class="dataset span3 ">
+              <a href="http://datos.labplc.mx/tutoriales/taxis"><h4>Validación de choferes y concesiones de taxis</h4></a>
+              <p>Obtén datos sobre taxistas y taxis del D.F.</p>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="span2 col2">
-        <h2>Datasets</h2>
-            <ul>
-                <li>Histórico de viajes de Ecobici</li>
-                <li>Egresos hospitalarios</li>
-                <li>Mercados Públicos</li>
-                <li>Reporte Vial</li>
-                <li>Histórico de verificaciones vehiculares</li>
-                <li>Concesiones de Taxis</li>
-                <li>Red Automática de Monitoreo Atmosférico</li>
-            </ul>
-      </div>
-      <div class="span2 col2">
-
-        <h2>Iconografía</h2>
-            <ul>
-             <li>Iconografía del Transporte</li>
-             <li>Iconografía de Dependencias del GDF</li>
-            </ul>
-
       </div>
     </div>
   </div>
 </div>
-{# <div role="main">
-  <div class="container">
-    <div class="row row2">
-      <div class="span6 col1">
 
-      </div>
-      <div class="span6 col2">
-
-      </div>
-    </div>
-  </div>
-</div> #}
 {% endblock %}
