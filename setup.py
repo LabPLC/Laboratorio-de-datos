@@ -27,5 +27,7 @@ setup(
         # Add plugins here, e.g.
         # myplugin=ckanext.labplc.plugin:PluginClass
         ckanext-labplc=ckanext.labplc.plugin:labplcPlugin
+        labplc_controller = ckanext.labplc.controller:LabplcController
+
     ''',
 )
