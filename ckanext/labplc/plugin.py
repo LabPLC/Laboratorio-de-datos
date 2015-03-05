@@ -17,7 +17,3 @@ class labplcPlugin(plugins.SingletonPlugin):
 
         # Add this plugin's fanstatic dir.
         tk.add_resource('fanstatic', 'ckanext-labplc')
-
-    def before_map(self, m):
-        m.redirect('/', '/dataset')
-        return m
