@@ -284,6 +284,13 @@ body {
   background-color: #FFF;
   color: #333;
 }
+.yellowish {
+  color: #fce900;
+}
+.yellowish:hover {
+  color: #fce900;
+  font-style: normal;
+}
 h1,
 h2,
 h3,
