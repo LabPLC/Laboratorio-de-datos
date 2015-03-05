@@ -1,3 +1,4 @@
+import logging
 import ckan.plugins as plugins
 import ckan.plugins.toolkit as tk
 
@@ -17,3 +18,10 @@ class labplcPlugin(plugins.SingletonPlugin):
 
         # Add this plugin's fanstatic dir.
         tk.add_resource('fanstatic', 'ckanext-labplc')
+
+
+    def before_map(self, map):
+        labplc_controller = 'ckanext.labplc.controller:LabplcController'
+        map.connect('/home_api', controller=labplc_controller,
+		 action='api')
+        return map
