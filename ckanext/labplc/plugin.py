@@ -22,6 +22,8 @@ class labplcPlugin(plugins.SingletonPlugin):
 
     def before_map(self, map):
         labplc_controller = 'ckanext.labplc.controller:LabplcController'
-        map.connect('/home_api', controller=labplc_controller,
+        map.connect('home_api','/apis', controller=labplc_controller,
 		 action='api')
+        map.connect('tutorials','/tutoriales', controller=labplc_controller,
+		 action='tutorials')
         return map
