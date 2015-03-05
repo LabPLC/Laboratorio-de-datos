@@ -223,7 +223,7 @@ input[type="color"]:focus,
 .btn-primary.active,
 .btn-primary.disabled,
 .btn-primary[disabled] {
-  background-color: #ffffff;
+  background-color: #80bbff;
 }
 .btn-success {
   background-color: #00ba1d;
