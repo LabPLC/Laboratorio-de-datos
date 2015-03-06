@@ -12,99 +12,60 @@
       <div class="span12 col1">
         <div class="module-content box">
           <header>
-
-
             <div class="span12">
                 <h1 class="page-heading">APIs de la Ciudad de México</h1>
+  
               <div class="module">
-                <h2><a href="http://datos.labplc.mx/aire.info" class="yellowish">API de Calidad del Aire</a></h2>
-                <p class="lead">Módulo que devuelve información sobre la calidad del aire, indice UV y clima del Distrito Federal</p>
-                <hr>
-                <table class="table">
-                  <thead>
-                    <tr>
-                      <th class="span4">Recurso</th><th class="span6">Descripción</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>
-                        <a href="http://datos.labplc.mx/aire/init.info?method=GET">
-                          GET /aire			</a>
-                      </td>
-                      <td>
-                        Consulta toda la información disponible sobre monitoreo atmosferico
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <a href="http://datos.labplc.mx/aire/init/consulta.info?method=GET">
-                          GET /aire/:consulta			</a>
-                      </td>
-                      <td>
-                        Consulta un parametro especifico del monitoreo atmosferico
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <div class="module">
-                <h2><a href="http://datos.labplc.mx/georeferencia.info" class="yellowish">API Georeferenciada</a></h2>
-                <p class="lead"></p>
-                <hr>
-                <table class="table">
-                  <thead>
-                    <tr>
-                      <th class="span4">Recurso</th><th class="span6">Descripción</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>
-                        <a href="http://datos.labplc.mx//georeferencia/init.info?method=GET">
-                          GET /georeferencia			</a>
-                      </td>
-                      <td>
-                        Búsqueda de ubicaciones georeferenciadas
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <div class="module">
-                <h2><a href="http://datos.labplc.mx/movilidad.info" class="yellowish">API de Movilidad</a></h2>
+                <h2><a href="" class="yellowish">API de Movilidad</a></h2>
                 <p class="lead">Contiene los métodos para obtener información relevante a la movilidad en el Distrito Federal</p>
                 <hr>
                 <div class="submodule">
-                  <h3><a href="http://datos.labplc.mx/movilidad/ecobici.info?submodule">ecobici</a></h3>
+                  <h3><a href="https://github.com/LabPLC/api.labcd.mx/wiki/Ecobici">Ecobici</a></h3>
                   <p>Métodos para obtener información de Ecobici</p>
                 </div>
                 <div class="submodule">
-                  <h3><a href="http://datos.labplc.mx/movilidad/taxis.info?submodule">taxis</a></h3>
+                  <h3><a href="https://github.com/LabPLC/api.labcd.mx/wiki/Taxis">Taxis</a></h3>
                   <p>Información y métodos sobre el servicio de taxis del Distrito Federal</p>
                 </div>
                 <div class="submodule">
-                  <h3><a href="http://datos.labplc.mx/movilidad/vehiculos.info?submodule">vehiculos</a></h3>
+                  <h3><a href="https://github.com/LabPLC/api.labcd.mx/wiki/Vehiculos">Vehículos</a></h3>
                   <p>Llamadas relacionadas a informacion de vehículos del DF</p>
                 </div>
               </div>
+
               <div class="module">
-                <h2><a href="http://datos.labplc.mx/servicios.info" class="yellowish">API de Servicios Generales</a></h2>
-                <p class="lead"></p>
+                <h2><a href="" class="yellowish">API de Calidad del Aire</a></h2>
+                <p class="lead">Módulo que devuelve información sobre la calidad del aire, indice UV y clima del Distrito Federal</p>
                 <hr>
                 <div class="submodule">
-                  <h3><a href="http://datos.labplc.mx/servicios/buzon.info?submodule">buzon</a></h3>
-                  <p>Reportes, peticiones de servicio, etc</p>
-                </div>
-                <div class="submodule">
-                  <h3><a href="http://datos.labplc.mx/servicios/finanzas.info?submodule">finanzas</a></h3>
-                  <p>Llamadas relacionadas a los servicios que ofrece Secretaría de Finazas en en el DF</p>
-                </div>
-                <div class="submodule">
-                  <h3><a href="http://datos.labplc.mx/servicios/registrocivil.info?submodule">registrocivil</a></h3>
-                  <p>Llamadas relacionadas a los servicios que ofrece Registro Civil en en el DF</p>
+                  <h3><a href="https://github.com/LabPLC/api.labcd.mx/wiki/Calidad-del-Aire">Aire</a></h3>
+                  <p>Métodos para obtener información de Ecobici</p>
                 </div>
               </div>
+
+
+              <div class="module">
+                <h2><a href="" class="yellowish">API de Servicios</a></h2>
+                <p class="lead">Módulo que devuelve información sobre el estado de servicios de la ciudad de México</p>
+                <hr>
+                <div class="submodule">
+                  <h3><a href="https://github.com/LabPLC/api.labcd.mx/wiki/Lineas-de-captura">Línea de Captura</a></h3>
+                  <p>Método que valida líneas de captura </p>
+                </div>
+                <div class="submodule">
+                  <h3><a href="https://github.com/LabPLC/api.labcd.mx/wiki/Pagos">Pagos</a></h3>
+                  <p>Método que regresa el estatus de un pago</p>
+                </div>
+                <div class="submodule">
+                  <h3><a href="https://github.com/LabPLC/api.labcd.mx/wiki/Testamentos">Testamentos</a></h3>
+                  <p>Métodos para obtener información acerca de los testamentos por medio de diferentes filtros</p>
+                </div>
+                <div class="submodule">
+                  <h3><a href="https://github.com/LabPLC/api.labcd.mx/wiki/Corralones">Corralones</a></h3>
+                  <p>Métodos para obtener información de si tu vehículo se encuentra en un corralon</p>
+                </div>
+              </div>
+
             </div>
           </header>
         </div>
