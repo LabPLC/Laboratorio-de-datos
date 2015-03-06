@@ -7,53 +7,32 @@
 {% endblock %}
 
 {% block content %}
-  <div role="main" class="hero">
+  <div role="main" class="hero lab-photo">
   <div class="container">
     <div class="row row1">
-      <div class="span8 col1">
+      <div class="span4 col1">
         <div class="module-content box">
           <header>
 
-              <h1 class="page-heading">¡Bienvenidos!</h1>
+              <h4 class="page-heading">BIENVENIDOS AL FESTIVAL DE DATOS DE LA CIUDAD DE MÉXICO</h4>
               <p>
-                El Laboratorio de Datos nace de la inquietud de generar una cultura de consumo de datos generados en
-                  las distintas Secretarías del Gobierno del Distrito Federal y tiene como objetivo principal el
-                  desarrollo de las herramientas necesarias para que estos datos se convierta en información útil tanto
-                  para la ciudadanía en general como para las distintas entidades de gobierno, empresas, emprendedores,
-                  asociaciones civiles, académicos, etc.
+                El Laboratorio de Datos es el repositorio de <a href="/dataset"> datasets</a> y
+                  <a href="/apis">API</a> proporcionados por las <a href="/organization">entidades</a> participantes
+                  en esta segunda edición de HackCDMX.
+                </p>
+              <p>
+                Aquí encontrarás todos los recursos digitales necesarios para desarrollar tus proyectos.
+                  Incluimos también algunos tutoriales que te ayudarán a entender y usar los datasets y herramientas.
               </p>
-              <p>Conoce más acerca del Laboratorio de Datos y te invitamos a participar activamente en el grupo de
-                  discusión del Laboratorio de Datos.
+              <p>
+                Para más información acerca de los formatos de participación y entregables, revisa
+                  la sección de <a href="http://hack.labcd.mx/retos/">Retos</a> en <a href="http://hack.labcd.mx">hack.labcd.mx</a>.
+              </p>
+              <p>
+                ¡Mucha suerte!
               </p>
           </header>
-            <section class="featured media-overlay hidden-phone">
-              <h2 class="media-heading">Placeholder image</h2>
-                <a class="media-image" href="#">
-                  <img src="{{ h.url_for_static('/base/images/placeholder-group.png') }}" alt="Placeholder" width="420" height="220" />
-                </a>
-            </section>
         </div>
-      </div>
-      <div class="span2 col2">
-        <h2>Datasets</h2>
-            <ul>
-                <li>Histórico de viajes de Ecobici</li>
-                <li>Egresos hospitalarios</li>
-                <li>Mercados Públicos</li>
-                <li>Reporte Vial</li>
-                <li>Histórico de verificaciones vehiculares</li>
-                <li>Concesiones de Taxis</li>
-                <li>Red Automática de Monitoreo Atmosférico</li>
-            </ul>
-      </div>
-      <div class="span2 col2">
-
-        <h2>Iconografía</h2>
-            <ul>
-             <li>Iconografía del Transporte</li>
-             <li>Iconografía de Dependencias del GDF</li>
-            </ul>
-
       </div>
     </div>
   </div>
