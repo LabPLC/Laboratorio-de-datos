@@ -863,9 +863,13 @@ strong.count {
   float: right;
 }
 /* Home */
+.festival-datos.module-content.box {
+  margin-top: 2em;
+}
 .lab-photo {
   background: url("/images/fondolab.jpg");
   height: 600px;
+  background-position: -171px -19px;
 }
 .hero {
   overflow: hidden;
