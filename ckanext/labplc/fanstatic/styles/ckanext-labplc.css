@@ -665,7 +665,11 @@ h5 {
   font-size: 18px;
 }
 .primary .module-content .search-form .search-input button i {
-  color: #ffffff;
+  color: #4d4d4d;
+}
+.search-form .search-input.search-giant input {
+  font-size: 15px;
+  padding: 7px;
 }
 .primary .module-content > .form-actions {
   margin-left: 0;
@@ -686,6 +690,9 @@ h5 {
 .media-view:hover .banner,
 .media-view.hovered .banner {
   background-color: #333333;
+}
+.bottom-yellow {
+  border-bottom: 3px solid #fce900;
 }
 /* Groups */
 .groups.wrapper {
@@ -863,8 +870,19 @@ strong.count {
   float: right;
 }
 /* Home */
+.festival-datos.module-content.box {
+  margin-top: 2em;
+}
+.lab-photo {
+  background: url("/images/fondolab.jpg");
+  height: 600px;
+  background-position: -171px -19px;
+}
 .hero {
   overflow: hidden;
+}
+.hero a {
+  font-weight: 700;
 }
 .hero .map {
   position: absolute;
@@ -913,6 +931,7 @@ strong.count {
 }
 .search-form .search-input {
   border: solid 2px #333333;
+  width: 65%;
 }
 .box {
   border: none;
