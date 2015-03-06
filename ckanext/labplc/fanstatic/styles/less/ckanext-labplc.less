@@ -590,8 +590,13 @@ h1,h2,h3,h4,h5{
   font-size: 18px;
 }
 .primary .module-content .search-form .search-input button i {
-  color: @dark;
+  color: lighten(@secondary,10%);
 }
+.search-form .search-input.search-giant input {
+  font-size: 15px;
+  padding: 7px;
+}
+
 .primary .module-content > .form-actions {
 	margin-left:0;
 	margin-right:0;
@@ -785,6 +790,7 @@ strong.count {
 }
 .search-form .search-input {
   border: solid 2px @secondary;
+  width:65%;
 }
 
 .box {
