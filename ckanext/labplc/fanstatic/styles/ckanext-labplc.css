@@ -687,6 +687,9 @@ h5 {
 .media-view.hovered .banner {
   background-color: #333333;
 }
+.bottom-yellow {
+  border-bottom: 3px solid #fce900;
+}
 /* Groups */
 .groups.wrapper {
   background-color: #ffffff;
