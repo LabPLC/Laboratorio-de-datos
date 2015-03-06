@@ -65,7 +65,6 @@ msgid ""
 "but not add new datasets.</p> "
 msgstr "<p><strong>Administrador:</strong> Puede agregar/editar y eliminar conjuntos de datos, así como también administrar a los miembros de una entidad.</p> <p><strong>Editor:</strong> Puede agregar y editar conjuntos de datos, pero no administrar a los miembros de una entidad.</p> <p><strong>Miembro:</strong> Puede ver los conjuntos de datos privados de una entidad, pero no agregar nuevos conjuntos de datos.</p>"
 
-
 #: ckan/templates/organization/new.html:3
 #: ckan/templates/organization/new.html:5
 #: ckan/templates/organization/new.html:7
@@ -168,3 +167,147 @@ msgid ""
 "       %(reset_link)s\n"
 "    "
 msgstr "Ha solicitado que se le resetee la clave en %(site_title)s.\n\nPor favor pulsa el siguiente enlace para confirmar la solicitud:\n\n   %(reset_link)s\n    "
+
+#: ckan/controllers/group.py:291 ckan/controllers/home.py:72
+#: ckan/controllers/package.py:227 ckan/lib/helpers.py:603
+#: ckan/logic/__init__.py:105
+#: ckan/templates/package/snippets/package_basic_fields.html:24
+#: ckan/templates/snippets/context/dataset.html:17
+#: ckan/templates/tag/index.html:3 ckan/templates/tag/index.html:6
+#: ckan/templates/tag/index.html:12 ckan/templates_legacy/layout_base.html:165
+#: ckan/templates_legacy/group/read.html:28
+#: ckan/templates_legacy/package/new_package_form.html:118
+#: ckan/templates_legacy/package/read.html:44
+#: ckan/templates_legacy/package/search.html:24
+#: ckan/templates_legacy/tag/index.html:6
+#: ckan/templates_legacy/tag/index.html:9
+msgid "Tags"
+msgstr "Temáticas"
+
+#: ckan/controllers/tag.py:70
+msgid "Tag not found"
+msgstr "Temática no encontrada"
+
+#: ckan/lib/activity_streams.py:64
+msgid "{actor} added the tag {tag} to the dataset {dataset}"
+msgstr "{actor} ha añadido la temática {tag} al conjunto de datos {dataset}"
+
+#: ckan/lib/activity_streams.py:126
+msgid "{actor} removed the tag {tag} from the dataset {dataset}"
+msgstr "{actor} eliminó la temática {tag} del conjunto de datos {dataset}"
+
+#: ckan/logic/converters.py:75 ckan/logic/converters.py:90
+#, python-format
+msgid "Tag vocabulary \"%s\" does not exist"
+msgstr "El vocabulario de temáticas \"%s\" no existe"
+
+#: ckan/logic/validators.py:395
+#, python-format
+msgid "Tag \"%s\" length is less than minimum %s"
+msgstr "La longitud de la temática \"%s\" es menor que el mínimo %s"
+
+#: ckan/logic/validators.py:399
+#, python-format
+msgid "Tag \"%s\" length is more than maximum %i"
+msgstr "La temática \"%s\" es más larga que el máximo permitido %i"
+
+#: ckan/logic/validators.py:407
+#, python-format
+msgid "Tag \"%s\" must be alphanumeric characters or symbols: -_."
+msgstr "La temática \"%s\" debe contener caracteres alfanuméricos o símbolos: -_."
+
+#: ckan/logic/validators.py:415
+#, python-format
+msgid "Tag \"%s\" must not be uppercase"
+msgstr "La temática \"%s\" no debe estar en mayúsculas"
+
+#: ckan/logic/validators.py:617
+msgid "Tag vocabulary was not found."
+msgstr "No se ha encontrado el vocabulario de temáticas."
+
+#: ckan/logic/validators.py:630
+#, python-format
+msgid "Tag %s does not belong to vocabulary %s"
+msgstr "La temática %s no pertenece al vocabulario %s"
+
+#: ckan/logic/validators.py:636
+msgid "No tag name"
+msgstr "Falta el nombre de la temática"
+
+#: ckan/logic/validators.py:649
+#, python-format
+msgid "Tag %s already belongs to vocabulary %s"
+msgstr "La temática %s ya pertenece al vocabulario %s"
+
+#: ckan/logic/action/delete.py:472
+#, python-format
+msgid "Could not find tag \"%s\""
+msgstr "No se ha encontrado la temática \"%s\""
+
+#: ckan/templates/home/snippets/search.html:16
+msgid "Popular Tags"
+msgstr "Temáticas Populares"
+
+#: ckan/templates/revision/read.html:74
+#: ckan/templates_legacy/revision/read.html:54
+msgid "Datasets' Tags"
+msgstr "Temáticas de los conjuntos de datos"
+
+#: ckan/templates/tag/index.html:33 ckan/templates/tag/index.html:34
+msgid "Search Tags"
+msgstr "Buscar Temáticas"
+
+#: ckan/templates_legacy/group/index.html:12
+msgid ""
+"Whilst tags are great at collecting datasets together, there are occasions "
+"when you want to restrict users from editing a collection. A [1:group] can "
+"be set-up to specify which users have permission to add or remove datasets "
+"from it."
+msgstr "A pesar de que las temáticas son muy útiles para agrupar conjuntos de datos, hay ocasiones en que hace falta restringir la edición dentro de una colección a los usuarios. Se puede crear un [1:grupo] para especificar que usuarios tienen permiso para añadirle o eliminar conjuntos de datos."
+
+
+#: ckan/templates_legacy/revision/read.html:58
+msgid ""
+",\n"
+"      Tag -"
+msgstr ",\n      Temática -"
+
+#: ckan/templates_legacy/tag/index.html:24
+msgid "results for tags."
+msgstr "resultados de las temáticas."
+
+#: ckan/templates_legacy/tag/index.html:34
+msgid "Clear search"
+msgstr "Limpiar la búsqueda"
+
+#: ckan/templates_legacy/tag/index.html:34
+msgid "and see all tags."
+msgstr "y ver todas las temáticas."
+
+#: ckan/templates_legacy/tag/read.html:6
+msgid "- Tags"
+msgstr "- Temáticas"
+
+#: ckan/templates_legacy/tag/read.html:7
+msgid "Tag:"
+msgstr "Temática:"
+
+#: ckan/templates_legacy/tag/read.html:10
+#, python-format
+msgid "There are %(count)s datasets tagged with [1:%(tagname)s]:"
+msgstr "Hay %(count)s conjuntos de datos etiquetados temáticamente con [1:%(tagname)s]:"
+
+#: ckan/templates_legacy/user/dashboard.html:30
+msgid "Create a group or a tag"
+msgstr "Crear un grupo o una temática"
+
+#: ckanext/stats/templates/ckanext/stats/index.html:136
+msgid "Tag Name"
+msgstr "Nombre de la Temática"
+
+
+#: ckanext/stats/templates_legacy/ckanext/stats/leaderboard.html:18
+msgid ""
+"Choose a dataset attribute and find out which categories in that area have "
+"the most datasets. E.g. tags, groups, license, res_format, country."
+msgstr "Selecciona un atributo de los conjuntos de datos y descubre cuales son las categorias en este área que tienen el mayor número de conjuntos de datos. Por ejemplo: temáticas, grupos, licencia, res_format, país."
