@@ -311,3 +311,11 @@ msgid ""
 "Choose a dataset attribute and find out which categories in that area have "
 "the most datasets. E.g. tags, groups, license, res_format, country."
 msgstr "Selecciona un atributo de los conjuntos de datos y descubre cuales son las categorias en este área que tienen el mayor número de conjuntos de datos. Por ejemplo: temáticas, grupos, licencia, res_format, país."
+
+#: ckan/templates/snippets/facet_list.html:80
+msgid "Show More {facet_type}"
+msgstr "Mostrar más {facet_type}"
+
+#: ckanext/labplc/templates/footer.html:18
+msgid "About"
+msgstr "Acerca del Laboratorio de Datos"
