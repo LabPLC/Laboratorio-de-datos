@@ -828,8 +828,8 @@ strong.count {
 }
 .site-footer {
   background-image: none;
-  background-color: #333333;
-  color: #FFF;
+  background-color: #FFF;
+  color: #333333;
 }
 .site-footer {
   padding: 25px 0;
@@ -840,20 +840,35 @@ strong.count {
 .site-footer .agu {
   display: block;
   float: left;
-  width: 180px;
+  width: 60px;
 }
 .site-footer .agu img {
-  width: 150px;
+  width: 47px;
 }
 .site-footer .cd-mx {
   display: block;
   float: left;
-  width: 110px;
+  width: 130px;
 }
+
 .site-footer .cd-mx img {
-  width: 85px;
+  width: 120px;
   margin-top: 7px;
 }
+
+.site-footer .lab {
+  display: block;
+  float: left;
+  width: 100px;
+  margin-top: 7px;
+}
+
+.site-footer .lab img {
+  width: 80px;
+  border-left: 1px solid rgb(51, 51, 51);
+  padding-left: 10px;
+}
+
 .site-footer .footer-links {
   float: right;
   margin-left: 260px;
@@ -865,9 +880,18 @@ strong.count {
 }
 .footer-tag .tagline {
   float: left;
+  font-size: 13px;
+  max-width: 350px;
+  text-transform: uppercase;
+  margin-left: 50px;
 }
 .footer-tag .links {
   float: right;
+}
+
+.footer-tag .links a {
+  color: #333;
+  font-size: 14px;
 }
 /* Home */
 .festival-datos.module-content.box {
