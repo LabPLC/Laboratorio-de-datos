@@ -12,8 +12,10 @@ Laboratorio de datos.
 
 ### Instalar extensión
 
-Haciendo uso del metodo tradicional, necesitas tener ya instalado CKAN, junto con
-los serviciós que de el depende como el la base de datos (Postgres).
+
+Haciendo uso del método tradicional, necesitas tener ya instalado CKAN, junto con
+los serviciós que de él depende, como la base de datos (Postgres).
+
 Te recomendamos que consultes la documentación de CKAN para su
 [instalación](http://docs.ckan.org/en/latest/maintaining/installing/index.html).
 
@@ -39,7 +41,7 @@ ckan.plugins = ckanext-labplc
 ```
 
 Ahora solo tienes que iniciar la instancia de CKAN o si lo tienes configurado con un
-servidor apache, debes reiniar el servicio.
+servidor apache, debes reiniciar el servicio.
 
 ```
 # service restart apache2
@@ -52,7 +54,7 @@ contenedores para aislar cada componente que require CKAN.
 
 Debes tener instalado docker y pertenecer al grupo de docker.
 
-Despues para la instalación de datacats, se require ejectuar el siguiente comando:
+Después para la instalación de datacats, se require ejectuar el siguiente comando:
 
 ```
 $ pip install datacats
@@ -76,20 +78,20 @@ de plugins.
 ckan.plugins = ckanext-labplc
 ```
 
-Despues de esto solo necesitas ejectuar:
+Después de esto solo necesitas ejectuar:
 
 ```
 $ datacats install
 $ datacats open
 ```
 
-El cual abrira el navegador prefeinido en nuestro sistema con la pagina de una
+El cual abrirá el navegador predefinido en nuestro sistema con la página de una
 nueva instancia del laboratorio de datos.
 
 ## Contribuye
 
-Este proyecto esta abierto a la comunidad. Si deseas colaborar puedes hacerlo reportando errores, dando ideas o haciendo solicitudes en la sección de issues.
+Este proyecto está abierto a la comunidad. Si deseas colaborar puedes hacerlo reportando errores, dando ideas o haciendo solicitudes en la sección de issues.
 
-Si cuentas con codigo por favor crea un pull requests, dando un titulo conciso del aporte y una descripción de los elementos a modificar, asi como tus motivaciones. Si es algun aporte que involucre cambios visuales por favor enlaza una imagen de los cambios en la descripción.
+Si cuentas con código por favor crea un pull requests, dando un título conciso del aporte y una descripción de los elementos a modificar, así como tus motivaciones. Si es algún aporte que involucre cambios visuales por favor enlaza una imagen de los cambios en la descripción.
 
 ## Licencia
