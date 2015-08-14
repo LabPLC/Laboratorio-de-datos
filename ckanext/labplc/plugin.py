@@ -26,4 +26,6 @@ class labplcPlugin(plugins.SingletonPlugin):
 		 action='api')
         map.connect('tutorials','/tutoriales', controller=labplc_controller,
 		 action='tutorials')
+        map.connect('about','/acerca', controller=labplc_controller,
+         action='about')
         return map
