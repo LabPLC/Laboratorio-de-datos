@@ -1,4 +1,4 @@
-# Laboratorio-de-datos
+# Laboratorio de Datos
 
 El Laboratorio de Datos es el repositorio de datasets y API proporcionados por
 las entidades participantes en la segunda edición de HackCDMX.
@@ -8,13 +8,13 @@ Este repositorio contiene una extensión del portal de datos [CKAN](http://ckan.
 ## Instalación
 
 Este repositorio provee dos formas para que puedas crear tu propia instancia del
-Laboratorio de datos.
+Laboratorio de Datos.
 
 ### Instalar extensión
 
 
 Haciendo uso del método tradicional, necesitas tener ya instalado CKAN, junto con
-los serviciós que de él depende, como la base de datos (Postgres).
+sus dependencias, como la base de datos (Postgres).
 
 Te recomendamos que consultes la documentación de CKAN para su
 [instalación](http://docs.ckan.org/en/latest/maintaining/installing/index.html).
@@ -61,8 +61,8 @@ $ pip install datacats
 $ datacats pull
 ```
 
-Este ultimo comando obtiene las dependencias y al mismo CKAN.
-Ya que tenemos todos los recursos creemos un proyecto y agreguemos nuestra
+Este último comando obtiene las dependencias y al mismo CKAN.
+Ya que tengas todos los recursos crea un proyecto y agrega nuestra
 extensión.
 
 ```
@@ -86,7 +86,7 @@ $ datacats open
 ```
 
 El cual abrirá el navegador predefinido en nuestro sistema con la página de una
-nueva instancia del laboratorio de datos.
+nueva instancia del Laboratorio de Datos.
 
 ## Contribuye
 
